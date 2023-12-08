@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 from tabulate import tabulate
 from bigrest.bigip import BIGIP
-device = BIGIP("10.201.61.216", "admin", "admin", session_verify=False)
+device = BIGIP("BIG-IP address", "BIG-IP username", "BIG-IP password", session_verify=False)
 
 data = device.show("/mgmt/tm/ltm/virtual/dns-10.73.125.137/profiles/~Common~dns-p-1/")
 jsondata = json.dumps(data.__dict__)
