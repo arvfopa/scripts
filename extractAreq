@@ -1,0 +1,44 @@
+import json
+import os
+import csv
+import time
+from datetime import datetime
+from tabulate import tabulate
+from bigrest.bigip import BIGIP
+device = BIGIP("10.201.61.216", "admin", "admin", session_verify=False)
+
+data = device.show("/mgmt/tm/ltm/virtual/dns-10.73.125.137/profiles/~Common~dns-p-1/")
+jsondata = json.dumps(data.__dict__)
+dnsdata = json.loads(jsondata)
+AReqsvalue = dnsdata["properties"]["https://localhost/mgmt/tm/ltm/virtual/dns-10.73.125.137/profiles/~Common~dns-p-1/~Common~dns-10.73.125.137/profiles/stats"]["nestedStats"]["entries"]["https://localhost/mgmt/tm/ltm/virtual/dns-10.73.125.137/profiles/~Common~dns-p-1/~Common~dns-10.73.125.137/profiles/~Common~dns-p-1/stats"]["nestedStats"]["entries"]["aReqs"]["value"]
+
+current_datetime = datetime.now()
+formatted_date = current_datetime.strftime("%Y-%m-%d %H:%M:%S")
+
+timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+
+def write_to_csv(formatted_date, AReqsvalue):
+    current_datetime = datetime.now()
+    formatted_date = current_datetime.strftime("%Y-%m-%d %H:%M:%S")
+
+    csv_filename = f"dns_stats_{timestamp}.csv"
+    headers = ["Date", "DNS A requests"]
+    stats = [[formatted_date, AReqsvalue]]
+
+    file_exists = os.path.exists(csv_filename)
+
+    print(tabulate(stats, headers, tablefmt="fancy_grid"))
+
+    with open(csv_filename, mode='a', newline='') as file:
+        writer = csv.writer(file) 
+
+        if not file_exists:
+            writer.writerow(headers)
+
+        writer.writerows(stats)
+
+end_time = time.time() + 60
+
+while time.time() < end_time:    
+    write_to_csv(formatted_date, AReqsvalue)
+    time.sleep(10)
