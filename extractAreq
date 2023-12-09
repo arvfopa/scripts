@@ -1,4 +1,3 @@
-import json
 import os
 import csv
 import time
@@ -8,9 +7,8 @@ from bigrest.bigip import BIGIP
 device = BIGIP("BIG-IP address", "BIG-IP username", "BIG-IP password", session_verify=False)
 
 data = device.show("/mgmt/tm/ltm/virtual/dns-10.73.125.137/profiles/~Common~dns-p-1/")
-jsondata = json.dumps(data.__dict__)
-dnsdata = json.loads(jsondata)
-AReqsvalue = dnsdata["properties"]["https://localhost/mgmt/tm/ltm/virtual/dns-10.73.125.137/profiles/~Common~dns-p-1/~Common~dns-10.73.125.137/profiles/stats"]["nestedStats"]["entries"]["https://localhost/mgmt/tm/ltm/virtual/dns-10.73.125.137/profiles/~Common~dns-p-1/~Common~dns-10.73.125.137/profiles/~Common~dns-p-1/stats"]["nestedStats"]["entries"]["aReqs"]["value"]
+dnsdata = data.properties
+AReqsvalue = dnsdata["https://localhost/mgmt/tm/ltm/virtual/dns-10.73.125.137/profiles/~Common~dns-p-1/~Common~dns-10.73.125.137/profiles/stats"]["nestedStats"]["entries"]["https://localhost/mgmt/tm/ltm/virtual/dns-10.73.125.137/profiles/~Common~dns-p-1/~Common~dns-10.73.125.137/profiles/~Common~dns-p-1/stats"]["nestedStats"]["entries"]["aReqs"]["value"]
 
 current_datetime = datetime.now()
 formatted_date = current_datetime.strftime("%Y-%m-%d %H:%M:%S")
