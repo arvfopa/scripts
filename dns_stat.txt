@@ -1,3 +1,6 @@
+#Used a bash script to gather tmsh DNS profile statistics output
+#while true; do date >> dns_stat.txt; tmsh show ltm profile dns {dns profile name} >> dns_stat.txt; sleep 20; echo "#######" >> dns_stat.txt; done
+
 Date: Sun Jun 25 11:05:31 PDT 2023
 
 ---------------------------------------------------
