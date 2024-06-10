@@ -8,5 +8,5 @@ with open('dns_t_1column.txt') as template, open('dns_stat.txt') as dnsstat:
     tabulated = (tabulate(result, headers=header))
     print(tabulated)
 
-with open('fsmcsv.txt', mode='w', newline='') as file:
+with open('fsmtabulated.txt', mode='w', newline='') as file:
     file.write(tabulated)
