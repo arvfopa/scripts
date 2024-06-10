@@ -1,0 +1,3333 @@
+Date: Sun Jun 25 11:05:31 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         4491
+  Total Responses                       4491
+  Responses/Second                         0
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   4491  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                4491  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 4491  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                4491  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    4491  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             4490   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   4489   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:05:51 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         4491
+  Total Responses                       4491
+  Responses/Second                         0
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   4491  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                4491  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 4491  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                4491  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    4491  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             4490   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   4489   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:06:11 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         6161
+  Total Responses                       6161
+  Responses/Second                         7
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   6161  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                6161  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 6161  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                6161  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    6161  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             6160   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   6159   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:06:32 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         6692
+  Total Responses                       6692
+  Responses/Second                       231
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   6692  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                6692  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 6692  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                6692  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    6692  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             6691   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   6690   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:06:52 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         6984
+  Total Responses                       6983
+  Responses/Second                         0
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   6984  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                6984  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 6984  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                6984  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    6984  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             6982   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   6981   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:07:12 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         7262
+  Total Responses                       7262
+  Responses/Second                         2
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   7262  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                7262  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 7262  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                7262  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    7262  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             7261   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   7260   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:07:32 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         7757
+  Total Responses                       7757
+  Responses/Second                         4
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   7757  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                7757  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 7757  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                7757  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    7757  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             7756   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   7755   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:07:53 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         8266
+  Total Responses                       8266
+  Responses/Second                        12
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   8266  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                8266  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 8266  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                8266  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    8266  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             8265   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   8264   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:08:13 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         8730
+  Total Responses                       8730
+  Responses/Second                        38
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   8730  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                8730  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 8730  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                8730  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    8730  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             8729   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   8728   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:08:33 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         9264
+  Total Responses                       9264
+  Responses/Second                       123
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   9264  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                9264  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 9264  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                9264  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    9264  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             9263   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   9262   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:08:53 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         9389
+  Total Responses                       9389
+  Responses/Second                        14
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   9389  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                9389  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 9389  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                9389  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    9389  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             9388   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   9387   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:09:14 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                         9920
+  Total Responses                       9920
+  Responses/Second                         8
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                   9920  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)                9920  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                 9920  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                                9920  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                    9920  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)             9919   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                   9918   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:09:34 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        10354
+  Total Responses                      10354
+  Responses/Second                         1
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  10354  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               10354  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                10354  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               10354  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   10354  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            10353   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  10352   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:09:54 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        10865
+  Total Responses                      10865
+  Responses/Second                         5
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  10865  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               10865  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                10865  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               10865  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   10865  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            10864   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  10863   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:10:14 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        11365
+  Total Responses                      11365
+  Responses/Second                        14
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  11365  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               11365  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                11365  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               11365  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   11365  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            11364   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  11363   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:10:35 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        11848
+  Total Responses                      11848
+  Responses/Second                        25
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  11848  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               11848  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                11848  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               11848  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   11848  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            11847   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  11846   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:10:55 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        11960
+  Total Responses                      11960
+  Responses/Second                         3
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  11960  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               11960  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                11960  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               11960  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   11960  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            11959   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  11958   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:11:15 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        12448
+  Total Responses                      12448
+  Responses/Second                         6
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  12448  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               12448  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                12448  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               12448  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   12448  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            12447   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  12446   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:11:35 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        12932
+  Total Responses                      12932
+  Responses/Second                         0
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  12932  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               12932  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                12932  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               12932  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   12932  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            12931   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  12930   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:11:56 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        13436
+  Total Responses                      13436
+  Responses/Second                         2
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  13436  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               13436  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                13436  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               13436  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   13436  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            13435   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  13434   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:12:16 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        13982
+  Total Responses                      13980
+  Responses/Second                        12
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  13982  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               13982  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                13982  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               13982  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   13982  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            13979   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  13978   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:12:36 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        14137
+  Total Responses                      14134
+  Responses/Second                         6
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  14137  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               14137  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                14137  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               14137  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   14137  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            14133   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  14132   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:12:57 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        14612
+  Total Responses                      14609
+  Responses/Second                        32
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  14612  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               14612  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                14612  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               14612  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   14612  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            14608   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  14607   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:13:17 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        15070
+  Total Responses                      15067
+  Responses/Second                        18
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  15070  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               15070  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                15070  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               15070  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   15070  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            15066   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  15065   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:13:37 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        15520
+  Total Responses                      15517
+  Responses/Second                         3
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  15520  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               15520  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                15520  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               15520  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   15520  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            15516   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  15515   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:13:57 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        16224
+  Total Responses                      16221
+  Responses/Second                        18
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  16224  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               16224  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                16224  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               16224  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   16224  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            16220   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  16219   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:14:18 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        16384
+  Total Responses                      16381
+  Responses/Second                         2
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  16384  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               16384  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                16384  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               16384  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   16384  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            16380   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  16379   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:14:38 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        16778
+  Total Responses                      16775
+  Responses/Second                         0
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  16778  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               16778  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                16778  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               16778  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   16778  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            16774   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  16773   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:14:58 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        17307
+  Total Responses                      17304
+  Responses/Second                        11
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  17307  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               17307  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                17307  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               17307  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   17307  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            17303   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  17302   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:15:18 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        17838
+  Total Responses                      17835
+  Responses/Second                         0
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  17838  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               17838  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                17838  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               17838  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   17838  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            17834   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  17833   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:15:39 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        18334
+  Total Responses                      18331
+  Responses/Second                        72
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  18334  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               18334  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                18334  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               18334  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   18334  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            18330   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  18329   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:15:59 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        18847
+  Total Responses                      18844
+  Responses/Second                       127
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  18847  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               18847  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                18847  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               18847  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   18847  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            18843   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  18842   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################
+Date: Sun Jun 25 11:16:19 PDT 2023
+
+---------------------------------------------------
+Ltm::DNS Profile: dns-prof-1     
+---------------------------------------------------
+Virtual Server Name                      N/A
+                                 
+Summary                          
+  Total Queries                        18993
+  Total Responses                      18990
+  Responses/Second                        38
+                                 
+Component Statistics                   Count      %
+  GTM                            
+   Queries                                 0    0.0
+   Rewrites                                0      -
+  DNS-Express                    
+   Queries                                 0    0.0
+   Notifies                                0    0.0
+  Cache/Resolver Queries                   0    0.0
+  Backend DNS Queries                  18993  100.0
+  DNS64                          
+   Queries                                 0      -
+   Rewrites                                0      -
+   Failures                                0      -
+                                 
+Unhandled Query Action           
+  Hints                                    0    0.0
+  Rejections                               0    0.0
+  No Errors                                0    0.0
+  Drops                                    0    0.0
+                                 
+Query Message                    
+  Recursion Desired (RD)               18993  100.0
+  DNSSEC Checking Disabled (CD)            0    0.0
+  EDNS0                                18993  100.0
+   Client Subnet                           0    0.0
+   Client Subnet Inserted                  0    0.0
+  Operation Code (OpCode)        
+   Query                               18993  100.0
+   Notify                                  0    0.0
+   Update                                  0    0.0
+   Other                                   0    0.0
+  Question Type                  
+   A                                   18993  100.0
+   AAAA                                    0    0.0
+   ANY                                     0    0.0
+   CNAME                                   0    0.0
+   MX                                      0    0.0
+   NAPTR                                   0    0.0
+   NS                                      0    0.0
+   PTR                                     0    0.0
+   SOA                                     0    0.0
+   SRV                                     0    0.0
+   TXT                                     0    0.0
+   IXFR                                    0    0.0
+   AXFR                                    0    0.0
+   Other                                   0    0.0
+                                 
+Response Message                 
+  Authoritative Answer (AA)            18989   99.9
+  Recursion Available (RA)                 0    0.0
+  Authenticated Data (AD)                  0    0.0
+  Truncated (TC)                           0    0.0
+  Return Code (RCODE)            
+   No Error                                1    0.0
+   No Name (NXDOMAIN)                  18988   99.9
+   Server Failed                           0    0.0
+   Refused                                 1    0.0
+   Bad EDNS Version                        0    0.0
+   Name Error (NXDOMAIN) Override          0    0.0
+  EDNS0 client subnet                      0    0.0
+                                 
+Other                            
+  Malformed Packets                        0      -
+  Malicious Packets                        0      -
+  TCL Suspends                             0      -
+                                 
+Licensed Service Rates                   DNS
+  Rate Limit (RPS)                 unlimited
+  Rate Rejected Requests                   0
+                                 
+Rapid Response                   
+  Queries                                  0
+  Responses                                0
+  Last Action                    
+    Allowed                                0
+    Drops                                  0
+    Truncated (TC)                         0
+    No Name (NXDOMAIN)                     0
+    No Error                               0
+    Refused                                0
+  Bad EDNS Version                         0
+                                 
+Hardware Acceleration            
+  Inspected Packets                        0
+  Malformed Packets                        0
+  Cache Lookups                            0
+  Cache Responses                          0
+
+###################

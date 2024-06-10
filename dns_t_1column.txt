@@ -1,0 +1,9 @@
+Value DATE (\S+.*)
+Value DNS_Q_typeA (\d+)
+Value DNS_R_NXDOMAIN (\d+)
+
+Start
+ ^Date: ${DATE}
+ ^\s+A\s+${DNS_Q_typeA}
+ ^Return Code \(RCODE\)
+ ^\s{3}No Name \(NXDOMAIN\)\s+${DNS_R_NXDOMAIN} -> Record
